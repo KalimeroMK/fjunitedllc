@@ -94,12 +94,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>TRUCKING 2015. All RIGHTS RESERVED.</p>
+                    <p>2020 All RIGHTS RESERVED.</p>
                 </div><!-- .col-md-6 end -->
 
                 <div class="col-md-6">
-                    <p class="align-right">DESIGNED AND DEVELOPED BY <a href="www.pixel-industry.com">PIXEL
-                            INDUSTRY.</a> ELITE AUTHOR.</p>
+                    <p class="align-right">DESIGNED AND DEVELOPED BY <a href="zorandev.com">Zoran Shefot Bogoevski</a>
+                    </p>
                 </div><!-- .col-md-6 end -->
             </div><!-- .row end -->
         </div><!-- .container end -->
