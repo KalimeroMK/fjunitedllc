@@ -2,5 +2,9 @@
     "/js/all.js": "/js/all.js",
     "/js/all.min.js": "/js/all.min.js",
     "/css/all.css": "/css/all.css",
-    "/css/all.min.css": "/css/all.min.css"
+    "/css/all.min.css": "/css/all.min.css",
+    "/theme/js/all.js": "/theme/js/all.js",
+    "/theme/js/all.min.js": "/theme/js/all.min.js",
+    "/theme/css/all.css": "/theme/css/all.css",
+    "/theme/css/all.min.css": "/theme/css/all.min.css"
 }
