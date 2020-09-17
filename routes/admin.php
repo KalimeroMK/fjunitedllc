@@ -1,4 +1,7 @@
 <?php
+
+use UniSharp\LaravelFilemanager\Lfm;
+
 Route::resource('ads', 'AdController');
 Route::resource('categories', 'CategoryController');
 Route::resource('posts', 'PostController');
@@ -10,3 +13,6 @@ Route::resource('users', 'UserController');
 Route::resource('settings', 'SettingController');
 Route::get('gallery/{id}/post', 'GalleryController@index')->name('addGallery');
 Route::resource('gallery', 'GalleryController');
+Route::group(['prefix' => 'laravel-filemanager'], function () {
+    Lfm::routes();
+});

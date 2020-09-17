@@ -38,10 +38,10 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function map()
+    public function map(): void
     {
         $this->mapAuthRoutes();
-        
+
         $this->mapApiRoutes();
 
         $this->mapAdminRoutes();
@@ -58,7 +58,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    protected function mapApiRoutes()
+    protected function mapApiRoutes(): void
     {
         Route::prefix('api')
             ->middleware('api')
@@ -69,7 +69,7 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * Define admin routes protected with auth middleware admin namespace used
      */
-    public function mapAdminRoutes()
+    public function mapAdminRoutes(): void
     {
         Route::middleware(['web', 'auth', '2fa', 'activity', 'checkblocked'])
             ->namespace($this->namespace . '\Admin')
@@ -79,7 +79,7 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * Define 2fa routes protected with auth middleware admin namespace used
      */
-    public function map2faRoutes()
+    public function map2faRoutes(): void
     {
         Route::middleware(['web', 'auth', 'activity', 'checkblocked'])
             ->namespace($this->namespace . '\Admin')
@@ -94,7 +94,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    protected function mapWebRoutes()
+    protected function mapWebRoutes(): void
     {
         Route::middleware(['web', 'activity', 'checkblocked'])
             ->namespace($this->namespace)

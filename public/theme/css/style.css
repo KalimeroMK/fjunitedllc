@@ -4039,3 +4039,9 @@ blockquote {
 .image-logo {
     width: 4.375rem
 }
+
+.articleImage {
+    height: 10.125rem;
+    object-fit: cover;
+    object-position: top;
+}

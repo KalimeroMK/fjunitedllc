@@ -65,7 +65,7 @@
                 data-hide-effect="fade"
                 data-delay="0"
             >
-                International Air Freight
+                International Freight
             </h2>
 
             <img class="ms-layer" src="/theme/masterslider/blank.gif" data-src="/theme/img/slider/slider-line.jpg"
@@ -86,7 +86,7 @@
                data-hide-effect="fade"
                data-delay="600"
             >
-                Fast International Air Delivery
+                Fast International Delivery
             </p>
         </div><!-- .ms-slide end -->
 
@@ -175,16 +175,8 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="service-feature-box">
                         <div class="service-media">
-                            <img src="/theme/img/pics/img01.jpg" alt="Trucking"/>
-
-                            <a href="overland-transportation.html" class="read-more02">
-                                    <span>
-                                        Read more
-                                        <i class="fa fa-chevron-right"></i>
-                                    </span>
-                            </a>
+                            <img src="{{ asset('theme/img/download.jpeg') }}" class="articleImage" alt="Trucking"/>
                         </div><!-- .service-media end -->
-
                         <div class="service-body">
                             <div class="custom-heading">
                                 <h4>GROUND SHIPPING</h4>
@@ -203,21 +195,13 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="service-feature-box">
                         <div class="service-media">
-                            <img src="/theme/img/pics/img02.jpg" alt="Trucking"/>
-
-                            <a href="large-projects.html" class="read-more02">
-                                    <span>
-                                        Read more
-                                        <i class="fa fa-chevron-right"></i>
-                                    </span>
-                            </a>
+                            <img src="{{ asset('theme/img/COMPLEX.jpg') }}" class="articleImage" alt="Trucking"/>
                         </div><!-- .service-media end -->
 
                         <div class="service-body">
                             <div class="custom-heading">
                                 <h4>LARGE PROJECTS</h4>
                             </div><!-- .custom-heading end -->
-
                             <p>
                                 We bring your goods safely to worldwide
                                 destinations with our great sea fright
@@ -231,26 +215,19 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="service-feature-box">
                         <div class="service-media">
-                            <img src="/theme/img/pics/img03.jpg" alt="Trucking"/>
-
-                            <a href="air-freight.html" class="read-more02">
-                                    <span>
-                                        Read more
-                                        <i class="fa fa-chevron-right"></i>
-                                    </span>
-                            </a>
+                            <img src="{{ asset('theme/img/international-and-overseas-big.jpg') }}" class="articleImage"
+                                 alt="Trucking"/>
                         </div><!-- .service-media end -->
 
                         <div class="service-body">
                             <div class="custom-heading">
-                                <h4>INTERNATIONAL AIR FREIGHT</h4>
+                                <h4>INTERNATIONAL DELIVERY</h4>
                             </div><!-- .custom-heading end -->
 
                             <p>
                                 We provide full supply chain management
                                 package including cost effective and fast
-                                sea freight. You can also combine this
-                                package with other means of transportation.
+                                means of transportation.
                             </p>
                         </div><!-- .service-body end -->
                     </div><!-- .service-feature-box-end -->
