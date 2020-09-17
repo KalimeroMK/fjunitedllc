@@ -10,6 +10,7 @@ use Illuminate\Foundation\Http\FormRequest;
  */
 class Send extends FormRequest
 {
+//    use CanAuthorise;
 
     /**
      * Get the validation rules that apply to the request.

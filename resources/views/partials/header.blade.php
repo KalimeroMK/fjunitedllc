@@ -32,11 +32,11 @@
                                     </li><!-- .dropdown end -->
 
                                     <li>
-                                        <a href="">Services</a>
-                                    </li><!-- .dropdown end -->
+                                        <a href="{{ route('carriers') }}">Carriers</a>
+                                    </li>
 
                                     <li>
-                                        <a href="{{ url('contact') }}">Contact</a>
+                                        <a href="{{ route('contact') }}">Contact</a>
                                     </li><!-- .dropdown end -->
                                 </ul><!-- .nav.navbar-nav end -->
 
@@ -58,11 +58,11 @@
                                         </li>
 
                                         <li>
-                                            <a href="#">News</a>
+                                            <a href="{{ route('carriers') }}">Carriers</a>
                                         </li>
 
                                         <li>
-                                            <a href="{{ url('contact') }}">Contact</a>
+                                            <a href="{{ route('contact') }}">Contact</a>
                                         </li>
                                     </ul><!-- .dl-menu end -->
                                 </div><!-- #dl-menu end -->

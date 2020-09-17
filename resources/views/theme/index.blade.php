@@ -104,8 +104,7 @@
                 data-hide-effect="fade"
                 data-delay="0"
             >
-                Freight services
-            </h2>
+                Fjunitedllc</h2>
 
             <img class="ms-layer" src="/theme/masterslider/blank.gif" data-src="/theme/img/slider/slider-line.jpg"
                  alt=""
@@ -125,7 +124,7 @@
                data-hide-effect="fade"
                data-delay="600"
             >
-                Road, air, train or overseas. We got it covered!
+                We are your best choice. We got it covered!
             </p>
         </div><!-- .ms-slide slide03 end -->
 
@@ -322,17 +321,6 @@
                                     Consumer Packaged Goods
                                 </p>
                             </li>
-
-                            <li>
-                                <div class="icon-container">
-                                    <img class="svg-white" src="/theme/img/svg/pi-mark-energy.svg" alt="icon"/>
-                                </div><!-- .icon-container end -->
-
-                                <p>
-                                    Chemical Goods
-                                </p>
-                            </li>
-
                             <li>
                                 <div class="icon-container">
                                     <img class="svg-white" src="/theme/img/svg/pi-food-beverage.svg" alt="icon"/>
@@ -350,16 +338,6 @@
 
                                 <p>
                                     Retail Goods
-                                </p>
-                            </li>
-
-                            <li>
-                                <div class="icon-container">
-                                    <img class="svg-white" src="/theme/img/svg/pi-truck-8.svg" alt="icon"/>
-                                </div><!-- .icon-container end -->
-
-                                <p>
-                                    Energy, Oil and Gas
                                 </p>
                             </li>
                         </ul><!-- .service-list end -->
@@ -521,24 +499,11 @@
                         <div class="custom-heading">
                             <h3>our locations</h3>
                         </div><!-- .custom-heading end -->
-
-                        <img src="/theme/img/pics/locations.jpg" alt="locations illustration"/>
-
-                        <br/>
-
-                        <p>
-                            Trucking Co. covers over 150 locations all
-                            over the globe plus numerous logistic
-                            partner companies from different areas of
-                            supply chain.
-                        </p>
-
-                        <a href="locations.html" class="read-more">
-                            <span>
-                                View all locations
-                                <i class="fa fa-chevron-right"></i>
-                            </span>
-                        </a>
+                        <div class="map-responsive">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.922561602594!2d-87.97926998456244!3d41.76532737923132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e4fa1785cb8b5%3A0x6bd277f247c2b337!2s6722%20Alpine%20Ln%2C%20Westmont%2C%20IL%2060559%2C%20USA!5e0!3m2!1sen!2smk!4v1600352410928!5m2!1sen!2smk"
+                                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                        </div>
                     </div><!-- .col-md-4 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->

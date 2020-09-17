@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Contact us</h1>
+                    <h1>Carriers</h1>
                 </div><!-- .col-md-12 end -->
             </div><!-- .row end -->
         </div><!-- .container end -->
@@ -56,34 +56,24 @@
             </div><!-- .col-md-6 end -->
 
             <div class="col-md-6">
+                <h1>Become part of the nation’s best tracking network. Join us be part of our big family.</h1>
                 <div class="custom-heading">
-                    <h3>Trucking headquarters</h3>
+                    <h3>company information</h3>
                 </div><!-- .custom-heading end -->
 
-                <div id="map" style="position: relative; overflow: hidden;">
-                    <div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(238, 238, 238);">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.922561602594!2d-87.97926998456244!3d41.76532737923132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e4fa1785cb8b5%3A0x6bd277f247c2b337!2s6722%20Alpine%20Ln%2C%20Westmont%2C%20IL%2060559%2C%20USA!5e0!3m2!1sen!2smk!4v1600352410928!5m2!1sen!2smk"
-                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                                aria-hidden="false" tabindex="0"></iframe>
-                    </div>
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.922561602594!2d-87.97926998456244!3d41.76532737923132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e4fa1785cb8b5%3A0x6bd277f247c2b337!2s6722%20Alpine%20Ln%2C%20Westmont%2C%20IL%2060559%2C%20USA!5e0!3m2!1sen!2smk!4v1600352410928!5m2!1sen!2smk"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
                 </div>
 
-                <div class="custom-heading">
-                    <h4>company information</h4>
-                </div><!-- .custom-heading end -->
+                <h3>
+                    630 828 6501
+                </h3>
+                <a href="mailto:"><h3>info@fjunitedllc.com</h3></a>
+            </div>
 
-                <address>
-                    6722 ALPINE LANE APT 4
-                    WESTMONT IL 60559
-                </address>
 
-                <span class="text-big colored">
-                            630 828 6501
-                        </span>
-                <br>
-
-                <a href="mailto:">info@fjunitedllc.com</a>
-            </div><!-- .col-md-6 end -->
-        </div>
+        </div><!-- .col-md-6 end -->
     </div>
 @endsection

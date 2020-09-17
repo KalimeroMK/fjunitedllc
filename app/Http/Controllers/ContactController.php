@@ -3,29 +3,39 @@
 namespace App\Http\Controllers;
 
 
-use App\Http\Requests\Email\Send;
 use App\Mail\ContactForm;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
 
-    public function contact()
+    public function create()
     {
         return view('theme.contact');
     }
 
+    public function createCarriers()
+    {
+        return view('theme.carriers');
+
+    }
+
     /**
-     * @param Send $request
+     * @param Request $request
      * @return Application|RedirectResponse|Redirector
      */
-    public function create(Send $request)
+    public function store(Request $request)
     {
-        dd($request->all());
-        $data = $request->all();
+        $data = request()->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'last_name' => 'required',
+            'message' => 'required',
+        ]);
         Mail::to('test@test.com')->send(new ContactForm($data));
 
         return redirect('contact')
