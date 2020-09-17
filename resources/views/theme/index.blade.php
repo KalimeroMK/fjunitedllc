@@ -225,9 +225,11 @@
                             </div><!-- .custom-heading end -->
 
                             <p>
-                                We provide full supply chain management
-                                package including cost effective and fast
-                                means of transportation.
+                                We provide highly professional supply chain management
+                                package including cost-effective and fast
+                                means of transportation to your preferred destination
+
+
                             </p>
                         </div><!-- .service-body end -->
                     </div><!-- .service-feature-box-end -->
