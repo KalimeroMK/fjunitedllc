@@ -4060,3 +4060,31 @@ blockquote {
     width: 100%;
     position: absolute;
 }
+
+.SubmitButton {
+    position: fixed;
+    top: 38%;
+    left: 1%;
+    z-index: 9999999999 !important;
+}
+
+.btn-gradient {
+    color: white;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: none !important;
+    white-space: nowrap;
+    padding: 14px 30px;
+    font-size: 22px;
+    line-height: 1.42857;
+    border-radius: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

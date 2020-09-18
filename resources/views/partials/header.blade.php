@@ -30,11 +30,6 @@
                                     <li>
                                         <a href="#">About</a>
                                     </li><!-- .dropdown end -->
-
-                                    <li>
-                                        <a href="{{ route('carriers') }}">Carriers</a>
-                                    </li>
-
                                     <li>
                                         <a href="{{ route('contact') }}">Contact</a>
                                     </li><!-- .dropdown end -->
@@ -56,11 +51,6 @@
                                         <li>
                                             <a href="#">Services</a>
                                         </li>
-
-                                        <li>
-                                            <a href="{{ route('carriers') }}">Carriers</a>
-                                        </li>
-
                                         <li>
                                             <a href="{{ route('contact') }}">Contact</a>
                                         </li>

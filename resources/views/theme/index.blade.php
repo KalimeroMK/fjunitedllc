@@ -233,13 +233,13 @@
             </div><!-- .row end -->
 
             <div class="row">
-                <div class="col-md-12">
-                    <a href="services02.html" class="btn btn-big btn-yellow btn-centered">
-                            <span>
-                                view details
-                            </span>
-                    </a>
-                </div><!-- .col-md-12 end -->
+                {{--                <div class="col-md-12">--}}
+                {{--                    <a href="services02.html" class="btn btn-big btn-yellow btn-centered">--}}
+                {{--                            <span>--}}
+                {{--                                view details--}}
+                {{--                            </span>--}}
+                {{--                    </a>--}}
+                {{--                </div><!-- .col-md-12 end -->--}}
             </div><!-- .row end -->
         </div><!-- .container end -->
     </div><!-- .page-content end -->
@@ -353,71 +353,7 @@
         <div class="page-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="custom-heading">
-                            <h3>company news</h3>
-                        </div><!-- .custom-heading end -->
-
-                        <ul class="pi-latest-posts clearfix">
-                            <li>
-                                <div class="post-media">
-                                    <img src="/theme/img/blog/latest01.jpg" alt=""/>
-                                </div><!-- .post-media end -->
-
-                                <div class="post-details">
-                                    <div class="post-date">
-                                        <p>
-                                            <i class="fa fa-calendar"></i>
-                                            MAY 15, 2015
-                                        </p>
-                                    </div>
-
-                                    <a href="news-single.html">
-                                        <h4>
-                                            Trucking - Company of the Year 2014
-                                        </h4>
-                                    </a>
-
-                                    <a href="news-single.html" class="read-more">
-                                        <span>
-                                            Read more
-                                            <i class="fa fa-chevron-right"></i>
-                                        </span>
-                                    </a>
-                                </div><!-- .post-details end -->
-                            </li>
-
-                            <li>
-                                <div class="post-media">
-                                    <img src="/theme/img/blog/latest02.jpg" alt=""/>
-                                </div><!-- .post-media end -->
-
-                                <div class="post-details">
-                                    <div class="post-date">
-                                        <p>
-                                            <i class="fa fa-calendar"></i>
-                                            MAY 15, 2015
-                                        </p>
-                                    </div>
-
-                                    <a href="news-single.html">
-                                        <h4>
-                                            First quartal 2015 revenue report released
-                                        </h4>
-                                    </a>
-
-                                    <a href="news-single.html" class="read-more">
-                                        <span>
-                                            Read more
-                                            <i class="fa fa-chevron-right"></i>
-                                        </span>
-                                    </a>
-                                </div><!-- .post-details end -->
-                            </li>
-                        </ul><!-- .pi-latest-posts end -->
-                    </div><!-- .col-md-4 end -->
-
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-8 col-sm-12">
                         <div class="custom-heading">
                             <h3>what clients say</h3>
                         </div><!-- .custom-heading end -->
@@ -515,16 +451,27 @@
                     <div class="col-md-12">
                         <div class="carousel-container">
                             <div id="client-carousel" class="owl-carousel owl-carousel-navigation">
-                                <div class="owl-item"><img src="/theme/img/pics/client01.png" alt=""/></div>
-                                <div class="owl-item"><img src="/theme/img/pics/client02.png" alt=""/></div>
-                                <div class="owl-item"><img src="/theme/img/pics/client03.png" alt=""/></div>
-                                <div class="owl-item"><img src="/theme/img/pics/client04.png" alt=""/></div>
-                                <div class="owl-item"><img src="/theme/img/pics/client05.png" alt=""/></div>
-                                <div class="owl-item"><img src="/theme/img/pics/client06.png" alt=""/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client01.jpg"
+                                                                       alt="client01"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client02.jpg"
+                                                                       alt="client02"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client03.jpg"
+                                                                       alt="client03"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client04.jpg"
+                                                                       alt="client04"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client05.jpg"
+                                                                       alt="client05"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client06.jpg"
+                                                                       alt="client06"/></div>
                             </div><!-- .owl-carousel.owl-carousel-navigation end -->
                         </div><!-- .carousel-container end -->
                     </div><!-- .col-md-12 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->
+        <div class="text-center SubmitButton">
+            <a href="{{ route('carriers') }}">
+                <button class="btn-gradient parallax01">APPLY NOW</button>
+            </a>
+        </div>
 @endsection
