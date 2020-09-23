@@ -100,7 +100,8 @@
                 </div><!-- .custom-heading end -->
                 <h3>Become part of the nation’s best tracking network. Join us be part of our big family.</h3>
                 <h3>
-                    +1 630 828 6501
+                    Phone: +1 630 828 6501<br>
+                    Fax: +1 630 839 2778
                 </h3>
                 <a href="mailto:"><h3>dispatch@fjunitedllc.com</h3></a>
             </div>
