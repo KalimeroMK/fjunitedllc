@@ -6,7 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class NewsletterForm extends Mailable
+class CarrierForm extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -27,8 +27,8 @@ class NewsletterForm extends Mailable
      *
      * @return $this
      */
-    public function build()
+    public function build(): self
     {
-        return $this->from('zbogoevski@gmail.com')->view('mail.newsletter_create');
+        return $this->from('zbogoevski@gmail.com')->view('mail.carrier');
     }
 }

@@ -17,7 +17,7 @@
                     <h3>your inquiry</h3>
                 </div><!-- .custom-heading.left end -->
                 <!-- .contact form start -->
-                <form method="post" action="{{ route('contact.send') }}" class="wpcf7 clearfix">
+                <form method="post" action="{{ route('carriers.send') }}" class="wpcf7 clearfix">
                     @csrf
                     <fieldset>
                         <label>
@@ -70,8 +70,18 @@
                             <span class="required">*</span> Please select one of the options:
                         </label>
                         <select name="options" class="form-control" id="sel1">
-                            <option>Owner Operator</option>
-                            <option>Company Driver</option>
+                            <option value="Owner Operator">Owner Operator</option>
+                            <option value="Company Driver">Company Driver</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            <span class="required">*</span> Equipment Type:
+                        </label>
+                        <select name="equipment" class="form-control" id="sel1">
+                            <option value="Semi Truck">Semi Truck</option>
+                            <option value="Straight Truck">Straight Truck</option>
+                            <option value="Sprinter Van">Sprinter Van</option>
                         </select>
                     </fieldset>
                     <input type="submit" class="wpcf7-submit" value="send">

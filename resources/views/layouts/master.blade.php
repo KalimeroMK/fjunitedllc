@@ -2,8 +2,8 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <title>Trucking - Transportation and Logistics Website Template</title>
-    <meta name="description" content="Trucking is transportation and Logistics website template">
-    <meta name="author" content="pixel-industry">
+    <meta name="description" content="fjunitedllc is transportation and Logistics company">
+    <meta name="author" content="Zoran Shefot Bogoevski">
     <meta name="keywords"
           content="transportation, logistics, transportation template, logistics template, cargo, business">
     <meta charset="UTF-8">

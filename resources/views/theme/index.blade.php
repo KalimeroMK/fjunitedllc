@@ -446,6 +446,7 @@
         </div><!-- .page-content end -->
 
         <div class="page-content custom-bkg bkg-grey">
+            <h1 class="text-center">Our trusting partners</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
