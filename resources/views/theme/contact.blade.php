@@ -14,9 +14,14 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="custom-heading">
-                    <h3>your inquiry</h3>
+                    <h3>Let us know how we can help</h3>
                 </div><!-- .custom-heading.left end -->
                 <!-- .contact form start -->
+                @if(Session::has('success'))
+                    <div class="alert alert-success">
+                        {{Session::get('success')}}
+                    </div>
+                @endif
                 <form method="post" action="{{ route('contact.send') }}" class="wpcf7 clearfix">
                     @csrf
                     <fieldset>
@@ -65,7 +70,6 @@
                 <div class="custom-heading">
                     <h3>company information</h3>
                 </div><!-- .custom-heading end -->
-                <h3>Become part of the nation’s best tracking network. Join us be part of our big family.</h3>
                 <h3>
                     Phone: +1 630 828 6501<br>
                     Fax: +1 630 839 2778

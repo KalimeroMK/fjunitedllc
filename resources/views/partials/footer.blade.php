@@ -12,7 +12,7 @@
                 </div><!-- .col-md-6 end -->
 
                 <div class="col-md-6">
-                    <p class="align-right">DESIGNED AND DEVELOPED BY <a href="zorandev.com">Zoran Shefot Bogoevski</a>
+                    <p class="align-right">DESIGNED AND DEVELOPED BY <a href="https://zorandev.com">Zoran B</a>
                     </p>
                 </div><!-- .col-md-6 end -->
             </div><!-- .row end -->

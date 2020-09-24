@@ -263,17 +263,17 @@
                         <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
                             <img src="/theme/img/svg/pi-checklist-2.svg" alt="checklist icon"/>
                         </div><!-- .icon-container end -->
-
-                        <div class="service-details">
-                            <h3>Contract logistics</h3>
-
-                            <p>
-                                Need custom logistic service? We got it
-                                covered. From overland, air, rail and sea
-                                transportation. Fast, safe and accurate
-                                shipment provided all over the globe.
-                            </p>
-                        </div><!-- .service-details end -->
+                        <a href="{{ route('contact') }}">
+                            <div class="service-details">
+                                <h3>Contract logistics</h3>
+                                <p>
+                                    Need custom logistic service? We got it
+                                    covered. From overland, air, rail and sea
+                                    transportation. Fast, safe and accurate
+                                    shipment provided all over the globe.
+                                </p>
+                            </div><!-- .service-details end -->
+                        </a>
                     </div><!-- .service-icon-left-boxed end -->
                 </div><!-- .col-md-6 end -->
                 <div class="col-md-6 col-sm-6">
@@ -281,17 +281,17 @@
                         <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
                             <img src="/theme/img/svg/pi-touch-desktop.svg" alt="touch icon"/>
                         </div><!-- .icon-container end -->
-
-                        <div class="service-details">
-                            <h3>Consulting Services</h3>
-
-                            <p>
-                                Don't know what mean of transportation
-                                would be right for you, or you need someone
-                                for full supply chain management? Please contact
-                                us. Our team of professionals will be happy to help.
-                            </p>
-                        </div><!-- .service-details end -->
+                        <a href="{{ route('contact') }}">
+                            <div class="service-details">
+                                <h3>Consulting Services</h3>
+                                <p>
+                                    Don't know what mean of transportation
+                                    would be right for you, or you need someone
+                                    for full supply chain management? Please contact
+                                    us. Our team of professionals will be happy to help.
+                                </p>
+                            </div><!-- .service-details end -->
+                        </a>
                     </div><!-- .service-icon-left-boxed end -->
                 </div><!-- .col-md-6 end -->
             </div><!-- .container end -->
@@ -464,6 +464,22 @@
                                                                        alt="client05"/></div>
                                 <div class="owl-item articleLogo"><img src="/theme/img/pics/client06.jpg"
                                                                        alt="client06"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client07.jpg"
+                                                                       alt="client07"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client08.jpg"
+                                                                       alt="client08"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client09.jpg"
+                                                                       alt="client09"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client10.jpg"
+                                                                       alt="client10"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client11.jpg"
+                                                                       alt="client11"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client12.jpg"
+                                                                       alt="client12"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client13.jpg"
+                                                                       alt="client13"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client14.jpg"
+                                                                       alt="client14"/></div>
                             </div><!-- .owl-carousel.owl-carousel-navigation end -->
                         </div><!-- .carousel-container end -->
                     </div><!-- .col-md-12 end -->

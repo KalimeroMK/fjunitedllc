@@ -1,11 +1,12 @@
 @extends('layouts.master')
 @section('content')
     @include('admin.layouts.notify')
+
     <div class="page-title-style01 page-title-negative-top pt-bkg08" style="margin-top: 116px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Carriers</h1>
+                    <h1>Be part of our team</h1>
                 </div><!-- .col-md-12 end -->
             </div><!-- .row end -->
         </div><!-- .container end -->
@@ -14,9 +15,14 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="custom-heading">
-                    <h3>your inquiry</h3>
+                    <h3>Applicant informations</h3>
                 </div><!-- .custom-heading.left end -->
                 <!-- .contact form start -->
+                @if(Session::has('success'))
+                    <div class="alert alert-success">
+                        {{Session::get('success')}}
+                    </div>
+                @endif
                 <form method="post" action="{{ route('carriers.send') }}" class="wpcf7 clearfix">
                     @csrf
                     <fieldset>
@@ -24,32 +30,31 @@
                             <span class="required">*</span> First Name:
                         </label>
 
-                        <input type="text" name="name" class="wpcf7-text" id="contact-name">
+                        <input type="text" required name="name" class="wpcf7-text" id="contact-name">
                     </fieldset>
                     <label>
-                        <span class="required">*</span> Middle Name:
+                        Middle name:
                     </label>
-
                     <input type="text" name="middle_name" class="wpcf7-text" id="contact-name">
                     <fieldset>
                         <label>
                             <span class="required">*</span> Last Name:
                         </label>
 
-                        <input type="text" name="last_name" class="wpcf7-text" id="contact-last-name">
+                        <input type="text" required name="last_name" class="wpcf7-text" id="contact-last-name">
                     </fieldset>
                     <fieldset>
                         <label>
                             <span class="required">*</span> Phone number:
                         </label>
-                        <input type="email" name="phone" class="wpcf7-text" id="contact-email">
+                        <input type="number" required name="phone" class="wpcf7-text" id="contact-email">
                     </fieldset>
                     <fieldset>
                         <label>
                             <span class="required">*</span> Email:
                         </label>
 
-                        <input type="email" name="email" class="wpcf7-text" id="contact-email">
+                        <input type="email" required name="email" class="wpcf7-text" id="contact-email">
                     </fieldset>
 
                     <fieldset>
@@ -63,13 +68,13 @@
                         <label>
                             <span class="required">*</span> How Old Are You :
                         </label>
-                        <input type="number" name="age" class="wpcf7-text" id="contact-email">
+                        <input type="number" required name="age" class="wpcf7-text" id="contact-email">
                     </fieldset>
                     <fieldset>
                         <label>
                             <span class="required">*</span> Please select one of the options:
                         </label>
-                        <select name="options" class="form-control" id="sel1">
+                        <select required name="options" class="form-control" id="sel1">
                             <option value="Owner Operator">Owner Operator</option>
                             <option value="Company Driver">Company Driver</option>
                         </select>
@@ -78,7 +83,7 @@
                         <label>
                             <span class="required">*</span> Equipment Type:
                         </label>
-                        <select name="equipment" class="form-control" id="sel1">
+                        <select required name="equipment" class="form-control" id="sel1">
                             <option value="Semi Truck">Semi Truck</option>
                             <option value="Straight Truck">Straight Truck</option>
                             <option value="Sprinter Van">Sprinter Van</option>

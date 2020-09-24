@@ -37,10 +37,8 @@ class ContactController extends Controller
             'last_name' => 'required',
             'message' => 'required',
         ]);
-        Mail::to('test@test.com')->send(new ContactForm($data));
-
-        return redirect('contact')
-            ->with('message', 'Thank you for your interesting to be a part of our community.');
+        Mail::to('dispatch@fjunitedllc.com')->send(new ContactForm($data));
+        return redirect()->back()->with('success', 'Thanks for contact us, we will reach you out shortly');
     }
 
     public function storeCarrier(Request $request)
@@ -50,11 +48,13 @@ class ContactController extends Controller
             'middle_name' => 'required',
             'last_name' => 'required',
             'email' => 'required|email',
-
+            'phone' => 'required',
+            'age' => 'required',
+            'experience' => 'required',
+            'options' => 'required',
+            'equipment' => 'required'
         ]);
-        Mail::to('test@test.com')->send(new CarrierForm($data));
-
-        return redirect('contact')
-            ->with('message', 'Thank you for your interesting to be a part of our community.');
+        Mail::to('filip@fjunitedllc.com')->send(new CarrierForm($data));
+        return back()->with('success', 'Thanks for signing up at FJ UNITED LLC, we will reach you out shortly');
     }
 }
