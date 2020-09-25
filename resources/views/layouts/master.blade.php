@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <title>Trucking - Transportation and Logistics Website Template</title>
+    <title>Trucking - Transportation and Logistics</title>
     <meta name="description" content="fjunitedllc is transportation and Logistics company">
     <meta name="author" content="Zoran Shefot Bogoevski">
     <meta name="keywords"
