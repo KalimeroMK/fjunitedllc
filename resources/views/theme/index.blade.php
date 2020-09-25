@@ -394,10 +394,7 @@
                                         </p>
 
                                         <div class="testimonial-author">
-                                            <p>
-                                                ADRIANOSP, <br/>
-                                                Themeforest member
-                                            </p>
+
                                         </div><!-- .testimonial-author end -->
                                     </div><!-- .testimonial end -->
                                 </div><!-- .owl-item end -->
@@ -421,8 +418,7 @@
 
                                         <div class="testimonial-author">
                                             <p>
-                                                DIGITALMARKETINGASSOCIATES, <br/>
-                                                Themeforest member
+
                                             </p>
                                         </div><!-- .testimonial-author end -->
                                     </div><!-- .testimonial end -->
