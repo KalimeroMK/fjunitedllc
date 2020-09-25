@@ -28,7 +28,7 @@
                                     </li><!-- .dropdown end -->
 
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="{{ route('about') }}">About</a>
                                     </li><!-- .dropdown end -->
                                     <li>
                                         <a href="{{ route('contact') }}">Contact</a>

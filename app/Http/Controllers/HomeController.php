@@ -16,4 +16,9 @@ class HomeController extends Controller
         return view('theme.index');
     }
 
+    public function about()
+    {
+        return view('theme.about');
+    }
+
 }

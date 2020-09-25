@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="custom-heading">
-                    <h3>Let us know how we can help</h3>
+                    <h3>Let us know how we can help. We are ready to get moving!</h3>
                 </div><!-- .custom-heading.left end -->
                 <!-- .contact form start -->
                 @if(Session::has('success'))
