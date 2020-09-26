@@ -8,7 +8,7 @@
                  alt="Strongest distribution network"/>
 
             <img class="ms-layer" src="/theme/masterslider/blank.gif" data-src="/theme/img/slider/slider-line.jpg"
-                 alt=""
+                 alt="image"
                  style="left: 0; top: 310px;"
                  data-type="image"
                  data-effect="left(short)"
@@ -69,7 +69,7 @@
             </h2>
 
             <img class="ms-layer" src="/theme/masterslider/blank.gif" data-src="/theme/img/slider/slider-line.jpg"
-                 alt=""
+                 alt="image"
                  style="left: 540px; top: 450px;"
                  data-type="image"
                  data-effect="bottom(short)"
@@ -107,7 +107,7 @@
                 Fjunitedllc</h2>
 
             <img class="ms-layer" src="/theme/masterslider/blank.gif" data-src="/theme/img/slider/slider-line.jpg"
-                 alt=""
+                 alt="image"
                  style="left: 540px; top: 450px;"
                  data-type="image"
                  data-effect="bottom(short)"
@@ -146,7 +146,7 @@
             </h2>
 
             <img class="ms-layer" src="/theme/masterslider/blank.gif" data-src="/theme/img/slider/slider-line.jpg"
-                 alt=""
+                 alt="image"
                  style="left: 540px; top: 450px;"
                  data-type="image"
                  data-effect="bottom(short)"
