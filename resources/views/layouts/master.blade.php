@@ -2,7 +2,8 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <title>Fjunitedllc - Transportation and Logistics</title>
-    <meta name="description" content="fjunitedllc is transportation and Logistics company">
+    <meta name="description"
+          content="fjunitedllc is transportation and Logistics company best joist for your International Delivery ">
     <meta name="author" content="Zoran Shefot Bogoevski">
     <meta name="keywords"
           content="transportation, logistics, transportation template, logistics template, cargo, business">
@@ -22,6 +23,39 @@
     <link rel="stylesheet" href="{{ asset('theme/icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset('theme/masterslider/skins/default/style.css') }}">
     <!-- Fontawesome icons css -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48071106-14"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-48071106-14');
+    </script>
+    <script type="application/ld+json">
+{ "@context" : "https://schema.org",
+  "@type" : "Organization",
+  "url" : "https://fjunitedllc.com/",
+  "contactPoint" : [
+    { "@type" : "ContactPoint",
+      "telephone" : "+1 630 828 6501",
+      "contactType" : "customer service",
+      "areaServed" : "US"
+    } , {
+      "@type" : "ContactPoint",
+      "telephone" : "+1 630 828 6501",
+      "contactType" : "customer service",
+      "contactOption" : ["HearingImpairedSupported"] ,
+      "areaServed" : "US"
+    } ] }
+
+
+
+
+    </script>
 </head>
 <body>
 @include('partials.header')
