@@ -56,13 +56,14 @@
 
 
 
+
     </script>
 </head>
 <body>
 @include('partials.header')
 @yield('content')
 @include('partials.footer')
-<script src="{{ asset('theme/js/all.js')}}" defer></script><!-- jQuery library -->
+<script src="{{ asset('theme/js/all.js')}}"></script><!-- jQuery library -->
 <script>
     /* <![CDATA[ */
     jQuery(document).ready(function ($) {
