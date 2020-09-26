@@ -363,62 +363,65 @@
                                 <div class="owl-item">
                                     <div class="testimonial">
                                         <p>
-                                            Best customer support and
-                                            response time I have ever seen...
-                                            not to mention a kick ass theme!
-                                            Great feeling from this purchase.
-                                            Thank you Pixel Industry!
+                                            "Good Job on this one. We appreciate finding good carriers. Have a great
+                                            weekend!"
                                         </p>
 
                                         <div class="testimonial-author">
                                             <p>
-                                                TRAVIS COPLAND, <br/>
-                                                Transport & Logistics Solutions
+                                                John Wishman <br/>
+                                                Day or Nite Express </p>
+                                        </div><!-- .testimonial-author end -->
+                                    </div><!-- .testimonial end -->
+                                </div><!-- .owl-item end -->
+
+                                <div class="owl-item">
+                                    <div class="testimonial">
+                                        <p>
+                                            Awesome job great service team, thank you very much. The pleasure was all
+                                            mine.
+                                        </p>
+
+                                        <div class="testimonial-author">
+                                            <p>Mike Walter<br> Detailed Logistcs</p>
+                                        </div><!-- .testimonial-author end -->
+                                    </div><!-- .testimonial end -->
+                                </div><!-- .owl-item end -->
+
+                                <div class="owl-item">
+                                    <div class="testimonial">
+                                        <p>
+                                            Thank you so much team. I really appreciate the excellent service and look
+                                            forward to doing business with you again."
+                                        </p>
+
+                                        <div class="testimonial-author">
+                                            <p>John Ross <br>Port City Logistics
                                             </p>
                                         </div><!-- .testimonial-author end -->
                                     </div><!-- .testimonial end -->
                                 </div><!-- .owl-item end -->
-
                                 <div class="owl-item">
                                     <div class="testimonial">
                                         <p>
-                                            Thanks for developing
-                                            products to help many people
-                                            to work as I do. Thank you!
-                                            Success for all! I did not
-                                            need to use the support,
-                                            this never happened to me.
-                                            Pocket Theme bought today
-                                            for another client, very
-                                            good too! Hug!
+                                            Likewise team!!! You guys were great! Thank you for the help.
                                         </p>
 
                                         <div class="testimonial-author">
-
+                                            <p>Lucero Saucedo <br>Third Coast Logistics
+                                            </p>
                                         </div><!-- .testimonial-author end -->
                                     </div><!-- .testimonial end -->
                                 </div><!-- .owl-item end -->
-
                                 <div class="owl-item">
                                     <div class="testimonial">
                                         <p>
-                                            We have several sites now
-                                            built in Elvyre across
-                                            several servers and have had
-                                            almost zero issues. The
-                                            documentation is great and
-                                            the featureset is phenomenal.
-                                            It is the best looking
-                                            pro-level and fairly easy-to-implement
-                                            advanced theme we are currently
-                                            regularly using. The end product
-                                            is great and easy to use and
-                                            configure. Highly recommended...
+                                            Thanks team! Great job here from start to end. Very glad our paths crossed
+                                            on this one and hope to see you guys in the future on others.
                                         </p>
 
                                         <div class="testimonial-author">
-                                            <p>
-
+                                            <p>Dan Babchuck <br>Sunteck Transportation
                                             </p>
                                         </div><!-- .testimonial-author end -->
                                     </div><!-- .testimonial end -->
