@@ -26,6 +26,7 @@
                                     <li class="current-menu-item">
                                         <a href="/" class="dropdown-toggle">Home</a>
                                     </li><!-- .dropdown end -->
+
                                     <li>
                                         <a href="{{ route('about') }}">About</a>
                                     </li><!-- .dropdown end -->
