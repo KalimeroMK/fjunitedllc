@@ -479,6 +479,62 @@
                                                                        alt="client13"/></div>
                                 <div class="owl-item articleLogo"><img src="/theme/img/pics/client14.jpg"
                                                                        alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client16.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client17.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client18.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client19.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client20.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client21.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client22.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client23.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client24.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client25.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client26.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client27.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client28.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client29.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client30.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client31.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client32.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client33.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client34.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client35.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client36.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client37.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client38.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client39.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client40.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client41.png"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client42.jpg"
+                                                                       alt="client14"/></div>
+                                <div class="owl-item articleLogo"><img src="/theme/img/pics/client43.png"
+                                                                       alt="client14"/></div>
                             </div><!-- .owl-carousel.owl-carousel-navigation end -->
                         </div><!-- .carousel-container end -->
                     </div><!-- .col-md-12 end -->
