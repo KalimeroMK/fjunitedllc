@@ -1,4 +1,4 @@
-<p>Hi, This is {{ $data['name'] }} {{ $data['middle_name'] }} {{ $data['last_name'] }}</p>
+<p>Hi, This is {{ $data['name'] }}  {{ $data['last_name'] }}</p>
 <p>Email: {{ $data['email'] }}</p>
 <p>Phone: {{ $data['phone'] }}</p>
 <p>Experience: {{ $data['experience'] }}</p>
