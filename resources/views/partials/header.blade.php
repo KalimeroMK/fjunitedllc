@@ -26,7 +26,6 @@
                                     <li class="current-menu-item">
                                         <a href="/" class="dropdown-toggle">Home</a>
                                     </li><!-- .dropdown end -->
-
                                     <li>
                                         <a href="{{ route('about') }}">About</a>
                                     </li><!-- .dropdown end -->
@@ -43,13 +42,8 @@
                                         <li>
                                             <a href="/">Home</a>
                                         </li>
-
                                         <li>
-                                            <a href="#">About</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#">Services</a>
+                                            <a href="{{ route('about') }}">About</a>
                                         </li>
                                         <li>
                                             <a href="{{ route('contact') }}">Contact</a>

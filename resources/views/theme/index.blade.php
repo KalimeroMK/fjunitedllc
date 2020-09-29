@@ -359,7 +359,8 @@
                         </div><!-- .custom-heading end -->
 
                         <div class="carousel-container">
-                            <div id="testimonial-carousel" class="owl-carousel owl-carousel-navigation">
+                            <div id="testimonial-carousel" class="owl-carousel owl-carousel-navigation"
+                                 data-interval="6000">
                                 <div class="owl-item">
                                     <div class="testimonial">
                                         <p>

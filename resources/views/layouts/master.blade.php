@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <title>Fjunitedllc - Transportation and Logistics</title>
+    <title>FJUNITEDLLC - Transportation and Logistics</title>
     <meta name="description"
           content="fjunitedllc is transportation and Logistics company best joist for your International Delivery ">
     <meta name="author" content="Zoran Shefot Bogoevski">
@@ -51,6 +51,7 @@
       "contactOption" : ["HearingImpairedSupported"] ,
       "areaServed" : "US"
     } ] }
+
 
 
 
