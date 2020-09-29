@@ -45,7 +45,6 @@ class ContactController extends Controller
     {
         $data = request()->validate([
             'name' => 'required',
-            'middle_name' => 'string|min:3|max:255',
             'last_name' => 'required',
             'email' => 'required|email',
             'phone' => 'required',
